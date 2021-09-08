@@ -5,7 +5,7 @@ from django.http import HttpResponse
 
 
 def welcome(request):
-    return HttpResponse("Welcome to the Django Project")
+    return HttpResponse("Welcome to the Meeting Planner!")
 
 
 def date(request):
@@ -14,4 +14,4 @@ def date(request):
 
 # Please add: An about page that shows some text about yourself
 def about(request):
-    return HttpResponse("I'm resego and i'm learning how to code")
+    return HttpResponse("I'm Reindert and I make courses for Pluralsight.")
